@@ -11,9 +11,9 @@ const Hero = () => {
   return (
     <section
       id="home"
-      className="w-full border-2  flex justify-center min-h-screen gap-10 mt-6 mb-"
+      className="w-full border-2  flex justify-center min-h-screen gap-10 mt-6 "
     >
-      <div className="ml-20 xl:w-2/5 flex flex-col justify-center items-start w-full max-xl:padding-x pt-28 ">
+      <div className="ml-20 xl:w-2/5 flex flex-col justify-center items-start w-full max-xl:padding-x pt-28 md:flex-col ">
         <p className="text-red-400 mb-10">Our Summer Collection</p>
         <h1 className="text-5xl font-bold">
           <span className="pb-5">The New Arrival</span>
